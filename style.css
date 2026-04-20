@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #ffecd9;
+    box-sizing: border-box;
 }
 
 .robotofont {
@@ -12,29 +13,76 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.heart2 {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
 .logo {
     font-size: 28px;
     font-weight: bold;
-    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
     background-color: #ff8800;
     padding: 10px;
 }
+
+.logo-pequeño {
+    background: rgb(255, 81, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 187, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar *{
     display: flex;
-    padding: 5px;
-    color: black;
+    padding: 10px;
     background-color: #ff8800;
-    justify-content: right;
+    color: black;
+    justify-content: flex-end;
 }
 .navbar a:hover{    
     color: #ffd000;
     transition-duration: 0.3s;
 }
-.header *{
-    box-sizing: border-box;
-    width: 100%;
-    height: 50px;
-    background-color: #ffd399;
-    color: black;
-    padding: 10px;
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+
+.logo-cabra {  
+    display: flex;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 15px;
+    padding: 10px 10px;
+
+}
+.contenedor *{
+    background: linear-gradient(130deg, #ffda90fb, #ffae35);
+    padding: 36px;
+}
+.h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff8800;
+    margin-bottom: 5px;
+}
+
+.h2 {   
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff8800;
 }

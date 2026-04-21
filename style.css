@@ -6,18 +6,18 @@
 }
 
 .robotofont {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .heart2 {
-  display: flex;
-  align-items: center; 
-  gap: 10px; 
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
 }
 
 .logo {
@@ -106,11 +106,9 @@
 }
 
 .contenedor2 *{
-    display: grid;
-    padding: 24px;
+    padding: 12px;
     background-color: transparent;
     color: black;
-    justify-content: flex-start;
 }
 
 .textosobremi {
@@ -150,4 +148,86 @@
     border-radius: 50%;
     object-fit: cover;
     margin: 20px auto 0 auto;
+}
+
+.tabla {
+    table-layout: fixed;
+    width: 1250px;
+    border-collapse: collapse;
+    margin: 250px;
+    margin-top: 100px;
+}
+
+.tabla th,
+.tabla td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    background-color: rgb(255, 242, 206);
+}
+
+.tabla th {
+    background-color: #ffa825;
+    color: white;
+    text-align: left;
+}
+
+.barra {
+    width: 100%;
+    height: 8px;
+    background: #fae7fff3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progreso {
+    height: 100%;
+    background: linear-gradient(130deg, rgb(188, 130, 255), rgb(167, 60, 255));
+}
+
+.python {
+    width: 70%;
+}
+
+.html {
+    width: 50%;
+}
+
+.css {
+    width: 40%;
+}
+
+.js {
+    width: 25%;
+}
+
+.git {
+    width: 50%;
+}
+
+.contenedor-listas {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -170px;
+}
+
+.listados {
+    display: flex;
+    background: linear-gradient(130deg, #f5f3fcfb, #f4e7ff);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 330px;
+}
+
+.listados *{
+    padding: 20px;
+    background-color: transparent; 
+      
+}
+
+.listados ul,
+.listados ol {
+  padding-left: 20px;
 }

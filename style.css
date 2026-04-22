@@ -4,6 +4,7 @@
     background-color: #ffecd9;
     box-sizing: border-box;
 }
+/* --  font de la página web -- */
 
 .robotofont {
     font-family: "Roboto", sans-serif;
@@ -13,6 +14,10 @@
     font-variation-settings:
         "wdth" 100;
 }
+
+/* ------ Sección navegador ------- */
+
+/* --  logo -- */
 
 .heart2 {
     display: flex;
@@ -42,6 +47,7 @@
     justify-content: center;
 }
 
+/* --  barra de navegación -- */
 .navbar *{
     display: flex;
     padding: 10px;
@@ -58,7 +64,7 @@
     display: flex;
     gap: 20px;
 }
-
+/* --  logo cabra -- */
 .logo-cabra {  
     display: flex;
     width: 250px;
@@ -70,6 +76,9 @@
     padding: 10px 10px;
 
 }
+
+/* --  primer contenedor  -- */
+
 .contenedor {
     background: linear-gradient(130deg, #ffda90fb, #ffae35);
     padding: 36px;
@@ -81,6 +90,8 @@
     color: black;
     justify-content: flex-start;
 }
+
+/* --  especificaciónes de tipo h1, h2 -- */
 
 .h1 {
     font-size: 36px;
@@ -94,6 +105,8 @@
     font-weight: bold;
     color: #ff8800;
 }
+
+/* --  segundo contenedor -- */
 
 .contenedor2 {
     display: grid;
@@ -110,6 +123,10 @@
     background-color: transparent;
     color: black;
 }
+
+/* ------ Sección sobre mi ------- */
+
+/* --  Carta "sobre-mi" -- */
 
 .textosobremi {
     line-height: 1.8;
@@ -139,9 +156,11 @@
     line-height: 1.6;
     color: #444;
 }
+/* --  especificador para centrado -- */
 .centrar {
     text-align: center;
 }
+/* --  foto perfil (yo) -- */
 .foto-perfil {
     width: 250px;
     height: 250px;
@@ -149,6 +168,10 @@
     object-fit: cover;
     margin: 20px auto 0 auto;
 }
+
+/* ------ Sección habilidades ------- */
+
+/* --  tabla y sus contenidos -- */
 
 .tabla {
     table-layout: fixed;
@@ -205,6 +228,8 @@
     width: 50%;
 }
 
+/* --  listas ol y ul -- */
+
 .contenedor-listas {
   display: flex;
   gap: 40px;
@@ -231,6 +256,10 @@
 .listados ul, .listados ol {
   padding-left: 20px;
 }
+
+/* ------ Sección proyectos ------- */
+
+/* --  proyectos -- */
 
 .grid-a {
     display: grid;
@@ -262,6 +291,10 @@
 .figcaption {
     padding: 1rem;
 }
+
+/* ------ Sección contacto ------- */
+
+/* --  contactos form -- */
 
 .contforum {
     display: flex;
@@ -319,6 +352,10 @@ button {
     display: flex;
     align-items: center;
 }
+
+/* ------ Sección footer ------- */
+
+/* --  footer -- */
 
 .footer-contenido {
     display: flex;

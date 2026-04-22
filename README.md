@@ -1,5 +1,8 @@
-Códigos usados de html y css para la creación de la pagina web.
-Pagina web compatible con uso pcs o laptops
+-- Read Me --
+-- Sebastián Meléndez // 2026/O TI3031/D-IEI-N3-P2-C2(E-F)/D Concepción - Talcahuano IEI --
+
+Tipos de códigos usados: html y css para la creación de la pagina web.
+Pagina web compatible con uso de pcs y laptops
 
 
 
@@ -12,3 +15,4 @@ Cuarto commit= inicio y finalización de sección "Habilidades", trabaje en ambo
 Quinto commit= inicio y finalización de sección "Proyectos", trabaje en ambos html y css, teniendo en cuenta los 6 proyectos y sus imagenes referenciales respectivas, quedan errores que arreglar y cambios para la calidad del codigo, arreglar más tarde.
 Sexto commit= inicio y finalización de sección "Contacto", trabaje en ambos html y css, teniendo en cuenta en este caso el form para enviar teniendo en cuenta sus datos y ademas agregue la barra necesario con los datos de contacto, quedan errores que arreglar y cambios para la calidad de codigo, arreglar más tarde.
 Septimo commit= inicio y finalización del footer de la página. arreglar calidad de codigo y errores en los siguientes commits.
+Octavo commit= orden con /**/ para el css definiendo secciones y que son grupos de selectores.

@@ -320,3 +320,24 @@ button {
     align-items: center;
 }
 
+.footer-contenido {
+    display: flex;
+    justify-content: center;
+    background-color: #ff8800;
+}
+.footer-contenido *{
+    background-color: transparent;
+}
+
+.foottext {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -40px;
+    text-align: center;
+}
+.footlink {
+    margin-left: auto;
+    padding-right: 30px;
+    margin-top: -30px;
+}

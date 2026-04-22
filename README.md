@@ -16,3 +16,4 @@ Quinto commit= inicio y finalización de sección "Proyectos", trabaje en ambos 
 Sexto commit= inicio y finalización de sección "Contacto", trabaje en ambos html y css, teniendo en cuenta en este caso el form para enviar teniendo en cuenta sus datos y ademas agregue la barra necesario con los datos de contacto, quedan errores que arreglar y cambios para la calidad de codigo, arreglar más tarde.
 Septimo commit= inicio y finalización del footer de la página. arreglar calidad de codigo y errores en los siguientes commits.
 Octavo commit= orden con /**/ para el css definiendo secciones y que son grupos de selectores.
+Noveno commit= agregados de responsives (una aplicación para los selectores con el fin), arreglos generales para el codigo fueron realizados, finalizacion de proyecto.
